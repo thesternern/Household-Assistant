@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+/data
+/.claude-sessions
+test-results/
+playwright-report/
+.playwright-profile/
+
+# Your NYT Cooking recipe box, written by `npm run nyt:recipe-box`
+nyt-recipe-box.txt

@@ -1,0 +1,1 @@
+ALTER TABLE "households" ADD COLUMN "assistant_name" text DEFAULT 'Chessy' NOT NULL;
