@@ -33,7 +33,7 @@ document got it wrong by giving only one:
 
 - **To Canadian recipients** — no brand or campaign registration, and it works
   today. Verified on 2 September 2026: a message from `+1 604 555 0100` to a
-  `+1 672` BC mobile was **delivered**, at $0.0083. The Canadian long-code
+  BC mobile was **delivered**. The Canadian long-code
   filtering this document once treated as an accepted risk did not materialise at
   household volume, so Phase 2 needs no toll-free sender to reach the babysitter.
 - **To US recipients** — registration is required, even from this Canadian
@@ -41,7 +41,7 @@ document got it wrong by giving only one:
   `+1 604 555 0100` to a US mobile was accepted by Twilio, then returned
   `undelivered` with error **30034**, "message from an unregistered number".
 
-So the household's own US mobiles are unreachable by text until either an A2P
+So any US mobile is unreachable by text until either an A2P
 10DLC Sole Proprietor brand and campaign are registered and the number is added
 to a Messaging Service sender pool, or a verified toll-free number is used
 instead.

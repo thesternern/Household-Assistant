@@ -854,7 +854,7 @@ describe('the transient assistant', () => {
       ...input,
       assistantName: 'Chessy',
       goal:
-        "Order 8 hotdogs to be mailed to the household's California address, which the " +
+        "Order 8 hotdogs to be mailed to the household's address, which the " +
         'recipient already has on file. Confirm the order and mailing details. If it goes to ' +
         'voicemail again, leave a message with this order request and ask them to call back.',
     }) as { voicemailMessage: string }
